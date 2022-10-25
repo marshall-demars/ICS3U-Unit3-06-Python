@@ -24,7 +24,7 @@ def main():
             print("\nYou guessed incorrectly, the number was {}.".format(random_number))
     except ValueError:
         print("\nThis was not an integer")
-    finally:     
+    finally:
         print("\nDone.")
 
 
